@@ -89,6 +89,7 @@ public class Snake : MonoBehaviour
         }
         else if (collision.CompareTag("Food"))
         {
+            // змейка кушает! 
             InitialSize++;
             Grow();
         }
